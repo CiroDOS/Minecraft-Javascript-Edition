@@ -1,0 +1,36 @@
+#options {
+    background-color: #313234;
+    color: #ffffff;
+}
+
+#options .container {
+    margin: 100px;
+    margin-left: 740px;
+}
+
+#options .left-bar {
+    background-color: #313234;
+    color: #ffffff;
+    float: left;
+    height: 100%;
+    width: 37%;
+    padding: 30px;
+    margin-top: 60px;
+    border: 5px inset #c6c6c6;
+}
+#options .top-bar {
+    background: #c6c6c6;
+    color: #000000;
+    position: fixed;
+    width: 100%;
+    border: 3px outset;
+}
+
+.property-label {
+    font-size: 1.4rem;
+}
+
+input[type='range'] {
+    width: 200px;
+    accent-color: green;
+}

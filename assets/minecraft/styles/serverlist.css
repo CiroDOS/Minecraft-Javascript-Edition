@@ -1,0 +1,35 @@
+#server-list {
+    background-image: url('../textures/block/dirt.png');
+    background-repeat: repeat;
+    background-size: 64px;
+}
+
+#server-list .container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin: 0 auto;
+    margin: 30px;
+}
+
+#server-list .footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    height: 100px;
+    filter: brightness(1.75);
+}
+
+#server-list input[type='text'] {
+    font-family: 'Mojangles', sans-serif;
+    outline: none;
+    overflow: hidden;
+    border: 3px solid white;
+    background: #000;
+    width: 300px;
+    font-size: 15pt;
+    height: 45px;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+}

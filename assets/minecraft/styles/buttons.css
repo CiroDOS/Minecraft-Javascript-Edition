@@ -1,0 +1,23 @@
+button {
+    border: 2px outset;
+    background-color: #c6c6c6;
+    color: black;
+    padding: 5px 10px 5px 10px;
+    font-family: 'Mojangles';
+    font-weight: 400;
+    font-size: 1.1rem;
+}
+
+button:hover {
+    background: #43a01c;
+    border-color: #43a01c;
+}
+
+button:active {
+    border: none;
+}
+
+#quit_Settings {
+    float: right;
+    cursor: pointer;
+}

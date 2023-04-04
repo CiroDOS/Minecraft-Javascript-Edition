@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minecraft Javascript Edition - Loading...</title>
+
+    <link rel="stylesheet" href="assets/minecraft/styles/aesthetic.css">
+    <link rel="stylesheet" href="assets/minecraft/styles/serverlist.css">
+    <link rel="stylesheet" href="assets/minecraft/styles/buttons.css">
+    <link rel="stylesheet" href="assets/minecraft/styles/loadscreen.css">
+    <link rel="stylesheet" href="assets/minecraft/styles/menu.css">
+    <link rel="stylesheet" href="assets/minecraft/styles/options.css">
+    <link rel="stylesheet" href="assets/minecraft/styles/texts.css">
+
+</head>
+
+<body>
+
+    <div id="loadscreen" class="fullscreen">
+
+        <video class="animation-video" autoplay>
+
+            <!-- Load animations -->
+            <source type="video/mp4" src="assets/minecraft/animations/AnimationLogo.anm">
+
+        </video>
+
+    </div>
+
+
+    <div id="main_menu" class="fullscreen" style="display: none;">
+
+        <div class="opt-button">
+
+            <img src="assets/minecraft/textures/gui/MinecraftLogo.png" id="minecraft-logo" />
+
+            <div id="splash-text-container">
+                <span id="splash-text"></span>
+            </div>
+
+            <button id="btn_Singleplayer"
+                data='{"padding": {"bottom": {"quantity": 20, "measurement": "px"}, "top": {"quantity": 20, "measurement": "px"}, "left": {"quantity": 150, "measurement": "px"}, "right": {"quantity": 150, "measurement": "px"}}}'>Unjugador</button>
+            <button id="btn_Multiplayer"
+                data='{"padding": {"bottom": {"quantity": 20, "measurement": "px"}, "top": {"quantity": 20, "measurement": "px"}, "left": {"quantity": 150, "measurement": "px"}, "right": {"quantity": 150, "measurement": "px"}}}'>Multijugador</button>
+            <button id="btn_Settings"
+                data='{"padding": {"bottom": {"quantity": 20, "measurement": "px"}, "top": {"quantity": 20, "measurement": "px"}, "left": {"quantity": 150, "measurement": "px"}, "right": {"quantity": 150, "measurement": "px"}}}'>Ajustes</button>
+
+        </div>
+
+    </div>
+
+
+    <div id="options" class="fullscreen" style="display: none;">
+
+        <div class="top-bar" id="settings-topbar" data='{"padding": {"quantity": 20, "measurement": "px"}}'>
+            <img src="assets/minecraft/textures/gui/quit.png" id="quit_Settings">
+            <h2>Ajustes</h2>
+        </div>
+
+        <div class="left-bar"></div> <!-- Work in progress -->
+
+        <div class="container">
+            <span class="property-label">Tamaño de la interfaz: </span>
+            <input type="range" id="btn_range_padding" value="100">
+        </div>
+
+    </div>
+
+    <iframe id="play-canvas" frameborder="0" src="" class="fullscreen" style="display: none;"></iframe>
+
+    <div class="fullscreen" id="server-list" style="display: none;">
+        <div class="container">
+            <input type="text">
+        </div>
+
+        <div class="footer">
+            <hr>
+        </div>
+    </div>
+
+
+</body>
+
+<!-- Code -->
+<script src="WebAspect.js"></script>
+<script src="CalcThread.js"></script>
+
+<script src="ThreadManager.js"></script> <!-- IMPORTANT -->
+
+</html>
