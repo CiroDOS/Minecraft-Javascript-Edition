@@ -68,7 +68,7 @@ window.onload = function () {
 
     window.loaded = { phase: 2, comment: "Charged Loadscreen!" };
 
-    log("Loaded resources from script 'minecraft:assets/loadscreen'", timestamps[setTimestamp(new Date())], "INFO", "main");
+    Logger.log("Loaded resources from script 'minecraft:assets/loadscreen'", timestamps[setTimestamp(new Date())], "INFO", "main");
 
     loadscreen_video.onpause = function () {
 
@@ -117,7 +117,7 @@ window.onload = function () {
 }
 
 function openPlayCanvas(data) {
-    (windows['minecraft:window/canvas'].htmlobj).src = "https://minecraft-javascript-edition--systemdrive.repl.co/";
+    (windows['minecraft:window/canvas'].htmlobj).src = Gameplay.info['emulator-url'];
 
     window.switchTo(windows['minecraft:window/canvas'], { changeTitle: false });
     if (data['mode'] == 'singleplayer') {
@@ -158,11 +158,19 @@ window.switchTo = function (windowsToSwitch, options) {
             break;
 
         case windows['minecraft:window/canvas']: // ID: 03
+            if (options['changeTitle']) {
+                changeTitle(windowsToSwitch.title[0]);
+            }
+
             window.disableAllExcept(windowsToSwitch);
             window.enable(windowsToSwitch);
             break;
 
         case windows['minecraft:window/server_list']: // ID: 04
+            if (options['changeTitle']) {
+                changeTitle(windowsToSwitch.title);
+            }
+
             window.disableAllExcept(windowsToSwitch);
             window.enable(windowsToSwitch);
             break;
@@ -191,10 +199,6 @@ window.disable = function (a_window) {
 function setTimestamp(timestamp) {
     // Introduce the selected timestamp on timestamps and return index
     return timestamps.push(timestamp) - 1;
-}
-
-function log(message, timestamp, type, thread) {
-    console.log(`[ ${timestamp.getHours()}:${timestamp.getMinutes().override(2, '0')} ] [${thread}/${type}] ${message}`);
 }
 
 function showServerList() {
