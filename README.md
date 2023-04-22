@@ -10,13 +10,6 @@ Classes and their purposes:
 This class includes, among its functions, new functions to native javascript classes such as:
 `Math.calcPercentage(percentage, num)` Returns the percentage of a number
 `Math.extractPercentage(mahornum, minornum)` Returns a percentage of one number in another
-`Number.prototype.override(num, str)` This function is to have a minimum length in a text, and if not, it concatenates another character, Examples:
-```javascript
-let num = 12;
-// Minimun of length // Character to concat.
-num.override(3          , 'o')  == 'o12';
-// Minimun length = 3, '12'.length == 2, '12'.length != 3, 'o'.concat('12')
-```
 
 * WebAspect.js
 This class handles the appearance of the game, texts, images, videos, etc...
