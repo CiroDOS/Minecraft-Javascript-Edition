@@ -25,3 +25,8 @@ Math.randoming = function(until = 10, add = 0) {
 
     return selected_num + add;
 }
+
+Math.multipleDivision = function (num, array, minimum) {
+	for (var i = 0; !num < minimum; i++) num -= array[i];
+	return i + (num / Math.pow(10, num.toString().length));
+}
