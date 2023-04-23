@@ -1,26 +1,61 @@
+<div align="center">
+
+<img src="https://static.wikia.nocookie.net/minecraft_gamepedia/images/1/17/Grass_Block_%28graphics_fast%29_JE3.png/revision/latest?cb=20200831093828" alt="Logo"/>
+
 # Minecraft Javascript Edition
-This edition of Minecraft was made in HTML, CSS and Javascript.
-This edition has, animated loading screens, a fully functional gameplay, maybe not the best copy, but it has a pretty polished interface inspired by Minecraft Bedrock, and that even though the gameplay is inspired by Minecraft Java Edition.
 
-The addition of modifications is somewhat complex, it is easier to program the modifications than to include them in the game, now we will explain in more depth the source code of the game and what it is for...
+[Documentation](https://github.com/CiroDOS/MinecraftJavascriptEdition/blob/master/documentation/full_documentation.md) | [Download](#download) | [Installation](#download) | [Usage](#how-to-use-📚)
 
-Classes and their purposes:
+</div>
 
-* CalcThread.js
-This class includes, among its functions, new functions to native javascript classes such as:
-`Math.calcPercentage(percentage, num)` Returns the percentage of a number
-`Math.extractPercentage(mahornum, minornum)` Returns a percentage of one number in another
+<div align="center">
 
-* WebAspect.js
-This class handles the appearance of the game, texts, images, videos, etc...
-Functions:
-`showSplashes()` Display splashes on screen, you can change the splashes by another generated randomly, Examples:
-![I prefer Minecraft Javascript Feedback than Minecraft Java Feedback](https://i.imgur.com/d9t64Fm.png "Before")
-`showSplashes();`
-![10 PRINT "Hello World!"](https://i.imgur.com/mXncRS9.png "After")
-Among others, this script also comes with its own classes:
-	* WebAspect
-	This class has several functions:
-	`load()` This function loads the necessary components for the correct visualization of the game.
-* ThreadManager.js
-	And lastly, ThreadManager, as the name suggests, this script manages a lot of the game, it's an instance controller, this file is like the game itself, it has all the functions and it initializes the program, it controls everything, so if this script becomes corrupted or damaged, we'll give up everything. This has several functions and some necessary components that we are not going to go into detail now, if you want more information about this class, go to the ThreadManager.md file, it will explain all the operation in detail
+[English](https://github.com/CiroDOS/MinecraftJavascriptEdition/blob/master/README.md) | [Spanish](https://github.com/CiroDOS/MinecraftJavascriptEdition/blob/master/S_README.md)
+
+</div>
+
+<div align="center">
+    <a href="#download"><img src="https://img.shields.io/static/v1?style=flat&logo=github&message=3&label=downloads&color=blue" alt="downloads" /></a>
+    <a href="https://github.com/CiroDOS/MinecraftJavascriptEdition/forks"><img src="https://img.shields.io/static/v1?style=flat&message=1&label=forks&color=green" alt="Forks count" /></a>
+
+</div>
+
+## **About ℹ️**
+
+**Minecraft Javascript Edition** is a open-source Minecraft client programmed in Javascript, because Javascript is a popular language, it allows you modify it fast and easy.
+
+## Download
+
+Get Latest release from [Releases section](https://github.com/CiroDOS/MinecraftJavascriptEdition/releases/latest)
+
+## How to use 📚
+
+-   🌐 [Full Documentation](https://github.com/CiroDOS/MinecraftJavascriptEdition/blob/master/documentation/full_documentation.md)
+-   📖 [Usage](#getting-help-🙋)
+
+## Getting Help 🙋
+
+Usages Files:
+- [ThreadManager.js](https://github.com/CiroDOS/MinecraftJavascriptEdition/blob/master/documentation/ThreadManager.md)
+
+## Helping Us ❤️
+
+We are a small community so we need help to implement upgrades for new Minecraft versions, fixing bugs and expanding the project. We are always looking for motivated people to contribute. If you feel like it could be you, please have a look at the [issues](https://github.com/CiroDOS/MinecraftJavascriptEdition/issues) section :)
+
+## How to contribute 📝
+
+If you'd like to contribute to Minecraft Javascript Client, great, just fork the repository and submit a pull request on the _master_ branch.
+
+- [How i make a fork?](https://docs.github.com/articles/fork-a-repo)
+
+![Alt](https://repobeats.axiom.co/api/embed/e12fab1aad2bf67209ce1b18901b75c9d180c2d1.svg "Repobeats analytics image")
+
+## Translating Minecraft Javascript Edition 🌍
+
+To improve translations for MC JS Edition, please, <a href="data:text/xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4NCjx0cmFuc2xhdGlvbnM+DQoJPHRyYW5zbGF0ZT4NCgkJPGZyb20+U2luZ2xlcGxheWVyPC9mcm9tPg0KCQk8dG8+PC90bz4NCgk8L3RyYW5zbGF0ZT4NCgk8dHJhbnNsYXRlPg0KCQk8ZnJvbT5NdWx0aXBsYXllcjwvZnJvbT4NCgkJPHRvPjwvdG8+DQoJPC90cmFuc2xhdGU+DQoJPHRyYW5zbGF0ZT4NCgkJPGZyb20+U2V0dGluZ3M8L2Zyb20+DQoJCTx0bz48L3RvPg0KCTwvdHJhbnNsYXRlPg0KCTx0cmFuc2xhdGU+DQoJCTxmcm9tPkludGVyZmFjZSBzaXplPC9mcm9tPg0KCQk8dG8+PC90bz4NCgk8L3RyYW5zbGF0ZT4NCgk8dHJhbnNsYXRlPg0KCQk8ZnJvbT5TZXJ2ZXJzPC9mcm9tPg0KCQk8dG8+PC90bz4NCgk8L3RyYW5zbGF0ZT4NCgk8dHJhbnNsYXRlPg0KCQk8ZnJvbT5TZXJ2ZXIgTGlzdDwvZnJvbT4NCgkJPHRvPjwvdG8+DQoJPC90cmFuc2xhdGU+DQo8L3RyYW5zbGF0aW9ucz4=" download="TranslatorSnippet.xml">Download the XML Document</a> and post it in a fork
+
+- [About forks](#how-to-contribute-📝).
+
+## License ⚖️
+
+Full licence at: <a href="data:text/plain;base64,ICAgICAgICAgICAgICAgICAgICAgIAlNSU5FQ1JBRlQgSkFWQVNDUklQVCBFRElUSU9ODQogICAgICAgICAgICAgICAgICAgICAgIFZlcnNpb24gMS45LjMgTWFyY2ggMjAyMw0KDQogVGhpcyBpcyBNaW5lY3JhZnQgSmF2YXNjcmlwdCBFZGl0aW9uLCBzcGVjaWZpY2FsbHksIEdhbWVwbGF5IFVwZGF0ZSAoMS45LjMpLg0KIFRoaXMgcHJvZ3JhbSBpcyBPcGVuU291cmNlIGFuZCBmcmVlIHRvIHVzZSwgeW91IGNhbiBmb3VuZCBteSByZXBvc2l0b3J5IGluDQogZ2l0aHViLCA8aHR0cHM6Ly9naXRodWIuY29tL0Npcm9ET1MvTWluZWNyYWZ0SmF2YXNjcmlwdEVkaXRpb24vPi4NCg0KIFlvdSBjYW4gZGlzdHJpYnV0ZSB0aGlzIHNvZnR3YXJlLCBidXQgZ2l2aW5nIGNyZWRpdHMgdG8gPENpcm9ET1M+Lg0KDQogVGhpcyBzb2Z0d2FyZSBpcyBhIEZhbi1NYWtlIG9mIE1pbmVjcmFmdCBvZiBNb2phbmcgU3R1ZGlvcywgTW9yZSBpbmZvcm1hdGlvbg0KIGluIDxodHRwczovL3d3dy5taW5lY3JhZnQubmV0Lz4NCg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIExFR0FMIENPTkRJVElPTlMNCg0KIEFueSBzdXNwaWNpb3VzIG9yIGlsbGVnYWwgc29mdHdhcmUgdGhhdCBpcyBzaW1pbGFyIHRvIHRoaXMgd2lsbCBiZSBiYW5lYWJsZSwNCiBhcyB0aGlzIGlzIGZyZWUgc29mdHdhcmUgYW5kIGF2YWlsYWJsZSB0byBldmVyeW9uZSwgdGhlIGNyZWF0b3IgIkNpcm9ET1MiDQogd2lsbCBub3QgdGFrZSByZXNwb25zaWJpbGl0eSBmb3IgYW55IGxlZ2FsIGluZnJpbmdlbWVudC4NCiBJZiB5b3Ugb3duIGEgY29weSBvZiB0aGlzIHNvZnR3YXJlIHRoYXQgZG9lcyBub3QgZm9sbG93IHRoZSBNaW5lY3JhZnQgcnVsZXMgaXQgd2lsbCBiZSBiYW5uZWQgZm9yIHRob3NlIHJlYXNvbnMuDQoNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBDUkVESVRTDQoNCiAJQ29tdW5pdHkgTWFuYWdtZW50Og0KDQogQ2lybyBBbGVqbyBEaWF6IEZlcnJhcmlzIC0tLS0tLS0gUHJpbmNpcGFsIERlc2lnbmVyDQoNCiAJTW9qYW5nIFN0dWRpb3MgTGVhZGVyc2hpcDoNCg0KIDxodHRwczovL3d3dy5taW5lY3JhZnQubmV0L2VuLXVzL2NyZWRpdHM+" download="COPYING.txt">Text Document</a>

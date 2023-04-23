@@ -1,5 +1,3 @@
-// Fix Minor bugs
-
 class UnixDate {
 	static initial_date;
 	Year = 1970;
