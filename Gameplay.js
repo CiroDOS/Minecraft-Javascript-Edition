@@ -1,3 +1,10 @@
+/*
+ * This file is part of the project MinecraftJavascriptEdition
+ * Project Link: <https://github.com/CiroDOS/MinecraftJavascriptEdition>
+ * If you distribute this file, please, don't quit this copyright notes.
+ * ¡Thank you for watching my code!
+ */
+
 /**
  * Gameplay.info.emulator-url is the minecraft gameplay
  * is a web page embedded in a iframe that contains gameplay.
