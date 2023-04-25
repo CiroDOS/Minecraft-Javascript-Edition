@@ -1,0 +1,28 @@
+                      	MINECRAFT JAVASCRIPT EDITION
+                          Version 1.9.3 March 2023
+
+ This is Minecraft Javascript Edition, specifically, Gameplay Update (1.9.3).
+ This program is OpenSource and free to use, you can found my repository in
+ github, <https://github.com/CiroDOS/MinecraftJavascriptEdition/>.
+
+ You can distribute this software, but giving credits to <CiroDOS>.
+
+ This software is a Fan-Make of Minecraft of Mojang Studios, More information
+ in <https://www.minecraft.net/>
+
+                               LEGAL CONDITIONS
+
+ Any suspicious or illegal software that is similar to this will be baneable,
+ as this is free software and available to everyone, the creator "CiroDOS"
+ will not take responsibility for any legal infringement.
+ If you own a copy of this software that does not follow the Minecraft rules it will be banned for those reasons.
+
+                                  CREDITS
+
+ 	Comunity Managment:
+
+ Ciro Alejo Diaz Ferraris ------- Principal Designer
+
+ 	Mojang Studios Leadership:
+
+ <https://www.minecraft.net/en-us/credits>
