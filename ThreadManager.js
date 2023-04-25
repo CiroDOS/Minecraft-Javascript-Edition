@@ -124,7 +124,7 @@ window.onload = function () {
 }
 
 function openPlayCanvas(data) {
-    (windows['minecraft:window/canvas'].htmlobj).src = Gameplay.info['emulator-url'];
+    (windows['minecraft:window/canvas'].htmlobj).setAttribute("src", Gameplay.info['emulator-url']);
 
     window.switchTo(windows['minecraft:window/canvas'], { changeTitle: false });
     if (data['mode'] == 'singleplayer') {
