@@ -8,30 +8,28 @@
 const title = "Minecraft Javascript Edition";
 var padding = { measurement: "px" };
 var splashes = ["Minecraft!",
-                "100% Javascript, CSS & HTML!",
-                "Minceraft is real?",
-                "Wenomechoindesama",
-                "Turip ip ip",
-                "Vibe Tracks is YouTube on 2013 B)",
-                '10 PRINT "Hello World!"',
-                "$sudo install Minecraft",
-                "Microsoft is killing the future of Minecraft",
-                "YOU CAN SAVE MINECRAFT! PLAY MINECRAFT JAVA-SCRIPT!",
-                "HELP ME! I installed Windows 95 on 2023!",
-                btoa("WoW, you are extremely intelligent."),
-                "I can play Minecraft without internet on Java. Soon on javascript!",
-                "I prefer Minecraft Javascript Feedback than Minecraft Java Feedback",
-                "GitHub CiroDOS!"
-            ];
+    "100% Javascript, CSS & HTML!",
+    "Minceraft is real?",
+    "Now supports Eaglercraft!",
+    "Vibe Tracks is YouTube on 2013 B)",
+    '10 PRINT "Hello World!"',
+    "$sudo install Minecraft",
+    "Microsoft is killing the future of Minecraft",
+    "YOU CAN SAVE MINECRAFT! PLAY MINECRAFT JAVA-SCRIPT!",
+    "HELP ME! I installed Windows 95 on 2023!",
+    btoa("WoW, you are extremely intelligent."),
+    "I can play Minecraft without internet on Java. Soon on javascript!",
+    "I prefer Minecraft Javascript Feedback than Minecraft Java Feedback",
+    "GitHub CiroDOS!"
+];
 
 
 var range_padding_button;
 
-function changeTitle(s_title) {
-    window.document.getElementsByTagName("title")[0].innerText = s_title;
-}
+changeTitle = (docTitle) =>
+    document.querySelector("title").innerText = docTitle;
 
-function topBarSettingsPaddingCharger() {
+function topBarSettingsPaddingChanger() {
     console.group("Changing top bar size...");
 
     let topbar = document.getElementById("settings-topbar");
@@ -47,7 +45,7 @@ function topBarSettingsPaddingCharger() {
     console.groupEnd();
 }
 
-function buttonPaddingCharger() {
+function buttonPaddingChanger() {
     console.group("Changing button size...");
 
     var max_button_padding = { quantity: 33, measurement: "px" };
@@ -87,20 +85,21 @@ function buttonPaddingCharger() {
     console.groupEnd();
 }
 
-function paddingCharger() {
-    topBarSettingsPaddingCharger();
-    buttonPaddingCharger();
-}
-
 class WebAspect {
     static load() {
+        let func1 = function () { // This function changes the padding size
+            topBarSettingsPaddingChanger();
+            buttonPaddingChanger();
+        }
+
         console.group("Working on graphics...");
         window.range_padding_button = window.document.getElementById("btn_range_padding");
         range_padding_button.addEventListener(
-            "change", window.paddingCharger, false
+            "change", func1, false
         );
-        window.paddingCharger();
+
         window.showSplashes();
+        func1();
         window.moveSplashes();
         console.log("Done!");
         console.groupEnd();
@@ -198,79 +197,61 @@ function moveSplashes() {
         }
     ]
 
-    let a_c = 0;
-    let m_c = phases.length - 1;
+    let s_index = 0;
+    let m_index = phases.length - 1;
 
     var splash_txt = document.getElementById("splash-text");
 
-    setInterval(function() {
-        splash_txt.style.fontSize = `${phases[a_c].quantity}${phases[a_c].measurement}`;
-        if (a_c == m_c) {
-            a_c = 0;
+    setInterval(function () {
+        splash_txt.style.fontSize = `${phases[s_index].quantity}${phases[s_index].measurement}`;
+        if (s_index == m_index) {
+            s_index = 0;
         } else {
-            a_c++;
+            s_index++;
         }
     }, 100);
-    
+
 }
 
 function showSplashes() {
-    if (splashes.length < 1) {
-        splashes[0] = "Missingno."; // Reference to pokemon
-        document.getElementById("splash-text").outerText = splashes[0];
-        return;
-    }
-
-    var splash;
+    let splash;
 
     // ROUND MATH.RANDOM() FUNCTION
-    var num = Math.randoming(splashes.length, 0);
+    let num1 = Math.randoming(splashes.length, 0);
 
-    if (num < 0 || num > splashes.length || num == null) {
-        splash = "Minceraft";
-    } else {
-        splash = splashes[num];
-    }
+    if (splashes.length < 1) {
+        splashes[0] = "Missingno."; // Reference to pokemon
+    } else
+        splash = splashes[num1];
 
     document.getElementById("splash-text").innerText = splash;
-
-}
-
-function consentSplash(splash, confirmation) {
-    if (confirmation == 1) {
-        splashes.push(splash);
-        return confirmation;
-    } else {
-        return undefined;
-    }
 }
 
 function mainAnimations() {
     console.group("Menu animations");
-    let getCSSProperty = function(property) {
-        return `url(${property})`
-    }
+    let getCSSProperty = (property) => `url(${property})`;
 
-    let properties = {'minecraft:assets/textures/gui/wallpaper.movement': 'assets/minecraft/textures/gui/gifWallpaper.gif', 'minecraft:assets/textures/gui/wallpaper.static': 'assets/minecraft/textures/gui/staticWallpaper.png'};
-    let animations = {'minecraft.animation.movement/muted': getCSSProperty(properties['minecraft:assets/textures/gui/wallpaper.movement']), 'none': getCSSProperty(properties['minecraft:assets/textures/gui/wallpaper.static'])};
+    let properties = { 'minecraft:assets/textures/gui/wallpaper.movement': 'assets/minecraft/textures/gui/gifWallpaper.gif', 'minecraft:assets/textures/gui/wallpaper.static': 'assets/minecraft/textures/gui/staticWallpaper.png' };
+    let Animation = { ENABLED: getCSSProperty(properties['minecraft:assets/textures/gui/wallpaper.movement']), DISABLED: getCSSProperty(properties['minecraft:assets/textures/gui/wallpaper.static']) };
+    let Animation_Time = 1.5;
 
-    console.log("Charged animations [minecraft.animation.movement, none]");
+    console.log("Charged animations");
 
     // Set default image to an png image
-    (windows['minecraft:window/main_menu'].htmlobj).style.backgroundImage = animations['minecraft.animation.movement/muted'];
+    (windows['minecraft:window/main_menu'].htmlobj).style.backgroundImage = Animation.ENABLED;
     console.log("Changed background with: [minecraft.animation.movement]");
 
     // Timerize
-    setTimeout(function() {
+    setTimeout(function () {
         // Change image to static/png image
         console.group("Animations done");
 
-        console.log("Change resource: [minecraft:window/main_menu] styles with minecraft:animations('none')");
-        (windows['minecraft:window/main_menu'].htmlobj).style.backgroundImage = animations['none'];
+        console.log("Change resource: [minecraft:window/main_menu] styles with minecraft:animation('none')");
+        (windows['minecraft:window/main_menu'].htmlobj).style.backgroundImage = Animation.DISABLED;
         console.log("Successfully changed styles!");
 
         console.groupEnd();
-    }, 1500)
+    }, Animation_Time * 1000)
 
     console.groupEnd();
 }
