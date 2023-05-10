@@ -15,6 +15,6 @@ const servers = [
         max_players: 200,
         conected_players: 0,
         
-        isSecure: {certification: "Sibermatica ORG. SSMJE", value: true}
+        isSecure: {certification: "Sibermatica Corporation. SSMJE", value: true}
     }
 ];

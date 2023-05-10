@@ -58,6 +58,11 @@ window.onload = function () {
     windows['minecraft:window/settings'].htmlobj = document.getElementById("options");
     windows['minecraft:window/server_list'].htmlobj = document.getElementById("server-list");
 
+    let isThisAFile = (document.location.protocol == "file:");
+
+    if (isThisAFile) {
+        alert("It is not recommendable to play this edition of Minecraft on local file, this is not a bug, this is a important advertisement.");
+    }
 
     let menu_buttons = {
         btn_Settings: document.getElementById("btn_Settings"),
@@ -67,12 +72,12 @@ window.onload = function () {
     },
         loadscreen_video = windows['minecraft:window/loadscreen'].htmlobj.children[0];
 
-
-    window.loaded = { phase: 1, comment: `${window.onload.toString()} initialized!` };
+    window.loaded = { phase: 1, comment: `w_OnLoad initialized!` };
 
     // Play animation video
     loadscreen_video.addEventListener("click", () => loadscreen_video.play());
 
+    // Second load phase
     window.loaded = { phase: 2, comment: "Charged Loadscreen!" };
 
     Logger.log("Loaded resources from script 'minecraft:assets/loadscreen'", timestamps[setTimestamp(new Date())], "INFO", "main");
@@ -83,32 +88,32 @@ window.onload = function () {
         /* IMPORT FROM 'WebAspect' SCRIPT: */ mainAnimations();
 
         // Go to main menu, init game window
-        window.switchTo(windows['minecraft:window/main_menu'], { changeTitle: true });
+        SwitchToWindows(windows['minecraft:window/main_menu'], { changeTitle: true });
 
     }
 
     // Charge extern scripts
     WebAspect.load();
 
-    // AddEventHandler();
+    // Check activity on the buttons
     menu_buttons['btn_Settings'].addEventListener("click", function () {
 
         // Open settings window
-        window.switchTo(windows['minecraft:window/settings'], { changeTitle: true });
+        SwitchToWindows(windows['minecraft:window/settings'], { changeTitle: true });
 
     }, false);
 
     menu_buttons['quit_Settings'].addEventListener("click", function () {
 
         // Open settings window
-        window.switchTo(windows['minecraft:window/main_menu'], { changeTitle: true });
+        SwitchToWindows(windows['minecraft:window/main_menu'], { changeTitle: true });
 
     }, false);
 
     menu_buttons['btn_Singleplayer'].addEventListener("click", function () {
 
         // Play on mode singleplayer
-        openPlayCanvas({ mode: 'singleplayer', world: "TrucoLandia" });
+        openPlayCanvas({ mode: 'singleplayer', world: {name: "New World", seed: Math.random() * 10000}});
 
     }, false);
 
@@ -126,15 +131,11 @@ window.onload = function () {
 function openPlayCanvas(data) {
     (windows['minecraft:window/canvas'].htmlobj).setAttribute("src", Gameplay.info['emulator-url']);
 
-    window.switchTo(windows['minecraft:window/canvas'], { changeTitle: false });
-    if (data['mode'] == 'singleplayer') {
-        changeTitle(windows['minecraft:window/canvas']['title'].on_singleplayer.replaceAll("$world_name", data['world']['name']));
-    } else if (data['mode'] == 'multiplayer') {
-        changeTitle(windows['minecraft:window/canvas']['title'].on_multiplayer);
-    }
+    SwitchToWindows(windows['minecraft:window/canvas'], { changeTitle: false });
+    changeTitle(windows['minecraft:window/canvas']['title'].on_singleplayer.replaceAll("$world_name", data.world.name));
 }
 
-window.switchTo = function (windowsToSwitch, options) {
+function SwitchToWindows(windowsToSwitch, options) {
 
     switch (windowsToSwitch) {
         case windows['minecraft:window/loadscreen']: // ID: 00
@@ -142,8 +143,8 @@ window.switchTo = function (windowsToSwitch, options) {
                 changeTitle(windowsToSwitch.title);
             }
 
-            window.disableAllExcept(windowsToSwitch);
-            window.enable(windowsToSwitch);
+            disableAllWindowsExcept(windowsToSwitch);
+            enableWindow(windowsToSwitch);
             break;
 
         case windows['minecraft:window/main_menu']: // ID: 01
@@ -151,8 +152,8 @@ window.switchTo = function (windowsToSwitch, options) {
                 changeTitle(windowsToSwitch.title);
             }
 
-            window.disableAllExcept(windowsToSwitch);
-            window.enable(windowsToSwitch);
+            disableAllWindowsExcept(windowsToSwitch);
+            enableWindow(windowsToSwitch);
             break;
 
         case windows['minecraft:window/settings']: // ID: 02
@@ -160,8 +161,8 @@ window.switchTo = function (windowsToSwitch, options) {
                 changeTitle(windowsToSwitch.title);
             }
 
-            window.disableAllExcept(windowsToSwitch);
-            window.enable(windowsToSwitch);
+            disableAllWindowsExcept(windowsToSwitch);
+            enableWindow(windowsToSwitch);
             break;
 
         case windows['minecraft:window/canvas']: // ID: 03
@@ -169,8 +170,8 @@ window.switchTo = function (windowsToSwitch, options) {
                 changeTitle(windowsToSwitch.title[0]);
             }
 
-            window.disableAllExcept(windowsToSwitch);
-            window.enable(windowsToSwitch);
+            disableAllWindowsExcept(windowsToSwitch);
+            enableWindow(windowsToSwitch);
             break;
 
         case windows['minecraft:window/server_list']: // ID: 04
@@ -178,28 +179,28 @@ window.switchTo = function (windowsToSwitch, options) {
                 changeTitle(windowsToSwitch.title);
             }
 
-            window.disableAllExcept(windowsToSwitch);
-            window.enable(windowsToSwitch);
+            disableAllWindowsExcept(windowsToSwitch);
+            enableWindow(windowsToSwitch);
             break;
     }
 
 }
 
-window.disableAllExcept = function (except) {
+function disableAllWindowsExcept(except) {
     for (var i = 0; i < windows['windows'].length; i++) {
         if (windows.windows[i] == except.name) {
             continue;
         }
 
-        window.disable(windows[windows.windows[i]]);
+        disableWindow(windows[windows.windows[i]]);
     }
 }
 
-window.enable = function (a_window) {
+function enableWindow(a_window) {
     a_window['htmlobj'].style.display = "";
 }
 
-window.disable = function (a_window) {
+function disableWindow(a_window) {
     a_window['htmlobj'].style.display = "none";
 }
 
@@ -211,6 +212,6 @@ function setTimestamp(timestamp) {
 function showServerList() {
 
     // Open the server list
-    window.switchTo(windows['minecraft:window/server_list']);
+    SwitchToWindows(windows['minecraft:window/server_list']);
 
 }
