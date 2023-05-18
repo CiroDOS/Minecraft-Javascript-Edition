@@ -15,8 +15,7 @@
 </div>
 
 <div align="center">
-    <a href="#download"><img src="https://img.shields.io/static/v1?style=flat&logo=github&message=13&label=descargas&color=blue" alt="descargas" /></a>
-    <a href="https://github.com/CiroDOS/MinecraftJavascriptEdition/forks"><img src="https://img.shields.io/static/v1?style=flat&message=1&label=forks&color=green" alt="Recuento de bifurcaciones" /></a>
+    <a href="https://sourceforge.net/projects/minecraftjavascriptedition/files/latest/download"><img alt="Descargar MinecraftJavascriptEdition" src="https://img.shields.io/sourceforge/dm/minecraftjavascriptedition.svg" ></a><a href="https://github.com/CiroDOS/MinecraftJavascriptEdition/forks"><img src="https://img.shields.io/static/v1?style=flat&message=1&label=forks&color=green" alt="Recuento de bifurcaciones" /></a>
 
 </div>
 
@@ -27,6 +26,9 @@
 ## Descargar
 
 Obtener la última version en [La sección de lanzamientos](https://github.com/CiroDOS/MinecraftJavascriptEdition/releases/latest)
+
+Otros enlaces:
+[![Descargar MinecraftJavascriptEdition](https://a.fsdn.com/con/app/sf-download-button)](https://sourceforge.net/projects/minecraftjavascriptedition/files/latest/download)
 
 ## Como usar 📚
 
@@ -48,7 +50,7 @@ Si quieres contribuir al proyecto, ¡Genial!, solamente haz una bifurcación del
 
 - [Como hago una bifurcación?](https://docs.github.com/es/get-started/quickstart/fork-a-repo)
 
-![Alt](https://repobeats.axiom.co/api/embed/e12fab1aad2bf67209ce1b18901b75c9d180c2d1.svg "Repobeats analytics image")
+![Alt](https://repobeats.axiom.co/api/embed/e12fab1aad2bf67209ce1b18901b75c9d180c2d1.svg "Imágenes de análisis de Repobeats")
 
 ## Traduciendo Minecraft Javascript Edition 🌍
 

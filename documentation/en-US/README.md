@@ -15,8 +15,7 @@
 </div>
 
 <div align="center">
-    <a href="#download"><img src="https://img.shields.io/static/v1?style=flat&logo=github&message=13&label=downloads&color=blue" alt="downloads" /></a>
-    <a href="https://github.com/CiroDOS/MinecraftJavascriptEdition/forks"><img src="https://img.shields.io/static/v1?style=flat&message=1&label=forks&color=green" alt="Forks count" /></a>
+    <a href="https://sourceforge.net/projects/minecraftjavascriptedition/files/latest/download"><img alt="Download MinecraftJavascriptEdition" src="https://img.shields.io/sourceforge/dm/minecraftjavascriptedition.svg" ></a><a href="https://github.com/CiroDOS/MinecraftJavascriptEdition/forks"><img src="https://img.shields.io/static/v1?style=flat&message=1&label=forks&color=green" alt="Forks count" /></a>
 
 </div>
 
@@ -27,6 +26,9 @@
 ## Download
 
 Get Latest release from [Releases section](https://github.com/CiroDOS/MinecraftJavascriptEdition/releases/latest)
+
+Other mirrors:
+[![Download MinecraftJavascriptEdition](https://a.fsdn.com/con/app/sf-download-button)](https://sourceforge.net/projects/minecraftjavascriptedition/files/latest/download)
 
 ## How to use 📚
 
