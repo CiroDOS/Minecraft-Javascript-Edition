@@ -12,7 +12,7 @@
  * the variable beta_gameplay
  */
 
-const beta_gameplay = ''; // Not beta gameplay url :'(
+const beta_gameplay = 'https://classic.minecraft.net'; // This gameplay doesn't work correctly, then is not passed the 'Gameplay Test'
 
 class Gameplay {
     static info = {

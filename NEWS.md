@@ -10,7 +10,7 @@ For now, we don't have any optimizing update.
 It is possible that we change the game engine. Yes, the game engine. We should change it, Eaglercraft is some ILLEGAL. But, it is the best game engine.
 
 ## New libraries
-- Tea VM, Java emulator in javascript
+- J2Even, the javascript interpreter
 
 ## Deleted files
 - UnixDate.js

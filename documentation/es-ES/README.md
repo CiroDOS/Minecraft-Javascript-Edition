@@ -10,12 +10,12 @@
 
 <div align="center">
 
-[Inglés](https://github.com/CiroDOS/MinecraftJavascriptEdition/blob/master/README.md) | [Español](https://github.com/CiroDOS/MinecraftJavascriptEdition/blob/master/S_README.md)
+[Inglés](https://github.com/CiroDOS/MinecraftJavascriptEdition/blob/master/documentation/en-US/README.md) | [Español](https://github.com/CiroDOS/MinecraftJavascriptEdition/blob/master/documentation/es-ES/README.md)
 
 </div>
 
 <div align="center">
-    <a href="#download"><img src="https://img.shields.io/static/v1?style=flat&logo=github&message=3&label=descargas&color=blue" alt="descargas" /></a>
+    <a href="#download"><img src="https://img.shields.io/static/v1?style=flat&logo=github&message=13&label=descargas&color=blue" alt="descargas" /></a>
     <a href="https://github.com/CiroDOS/MinecraftJavascriptEdition/forks"><img src="https://img.shields.io/static/v1?style=flat&message=1&label=forks&color=green" alt="Recuento de bifurcaciones" /></a>
 
 </div>

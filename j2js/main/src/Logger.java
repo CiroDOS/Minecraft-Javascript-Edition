@@ -1,3 +1,4 @@
+package j2js.main.src;
 /*
  * This file is part of the project MinecraftJavascriptEdition
  * Project Link: <https://github.com/CiroDOS/MinecraftJavascriptEdition>
