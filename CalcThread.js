@@ -22,8 +22,7 @@ Math.roundBase = function (num, rounder) {
 String.prototype.extractNumbers = () => this.match(/[0-9]/g).join('');
 
 Math.randoming = function(until = 10, add = 0) {
-    let selected_num = Math.floor(Math.random() * until);
-    return selected_num + (until - (selected_num + add));
+    return Math.floor(Math.random() * until) + add;
 }
 
 Math.multipleDivision = function (num, array, minimum) {
