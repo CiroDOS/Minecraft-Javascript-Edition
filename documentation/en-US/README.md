@@ -4,7 +4,7 @@
 
 # Minecraft Javascript Edition
 
-[Documentation](https://github.com/CiroDOS/MinecraftJavascriptEdition/blob/master/documentation/full_documentation.md) | [Download](#download) | [Installation](#download) | [Usage](#how-to-use-📚)
+[Documentation](https://github.com/CiroDOS/MinecraftJavascriptEdition/blob/master/documentation/en-US/FullDocumentation.md) | [Download](#download) | [Installation](#download) | [Usage](#how-to-use-📚)
 
 </div>
 
@@ -15,8 +15,11 @@
 </div>
 
 <div align="center">
-    <a href="https://sourceforge.net/projects/minecraftjavascriptedition/files/latest/download"><img alt="Download MinecraftJavascriptEdition" src="https://img.shields.io/sourceforge/dm/minecraftjavascriptedition.svg" ></a><a href="https://github.com/CiroDOS/MinecraftJavascriptEdition/forks"><img src="https://img.shields.io/static/v1?style=flat&message=1&label=forks&color=green" alt="Forks count" /></a>
-
+    <a href="https://sourceforge.net/projects/minecraftjavascriptedition/files/latest/download"><img alt="Download MinecraftJavascriptEdition" src="https://img.shields.io/sourceforge/dm/minecraftjavascriptedition.svg" /></a>
+    <a href="https://sourceforge.net/projects/minecraftjavascriptedition/files/latest/download"><img alt="Download Minecraft Javascript Edition" src="https://img.shields.io/sourceforge/dm/minecraftjavascriptedition.svg" /></a>
+    <a href="https://sourceforge.net/projects/minecraftjavascriptedition/files/latest/download"><img alt="Download Minecraft Javascript Edition" src="https://img.shields.io/sourceforge/dw/minecraftjavascriptedition.svg" /></a>
+    <a href="https://sourceforge.net/projects/minecraftjavascriptedition/files/latest/download"><img alt="Download Minecraft Javascript Edition" src="https://img.shields.io/sourceforge/dd/minecraftjavascriptedition.svg" /></a>
+    <a href="https://github.com/CiroDOS/MinecraftJavascriptEdition/forks"><img src="https://img.shields.io/static/v1?style=flat&message=1&label=forks&color=green" alt="Forks count" /></a>
 </div>
 
 ## **About ℹ️**
@@ -32,7 +35,7 @@ Other mirrors:
 
 ## How to use 📚
 
--   🌐 [Full Documentation](https://github.com/CiroDOS/MinecraftJavascriptEdition/blob/master/documentation/full_documentation.md)
+-   🌐 [Full Documentation](https://github.com/CiroDOS/MinecraftJavascriptEdition/blob/master/documentation/en-US/FullDocumentation.md)
 -   📖 [Usage](#getting-help-🙋)
 
 ## Getting Help 🙋

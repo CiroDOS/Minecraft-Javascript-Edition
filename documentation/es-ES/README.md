@@ -4,7 +4,7 @@
 
 # Minecraft Javascript Edition
 
-[Documentación](https://github.com/CiroDOS/MinecraftJavascriptEdition/blob/master/documentation/full_documentation.md) | [Descargas](#descargar) | [Instalación](#descargar) | [Como Usar](#como-usar-📚)
+[Documentación](https://github.com/CiroDOS/MinecraftJavascriptEdition/blob/master/documentation/es-ES/FullDocumentation.md) | [Descargas](#descargar) | [Instalación](#descargar) | [Como Usar](#como-usar-📚)
 
 </div>
 
@@ -15,8 +15,11 @@
 </div>
 
 <div align="center">
-    <a href="https://sourceforge.net/projects/minecraftjavascriptedition/files/latest/download"><img alt="Descargar MinecraftJavascriptEdition" src="https://img.shields.io/sourceforge/dm/minecraftjavascriptedition.svg" ></a><a href="https://github.com/CiroDOS/MinecraftJavascriptEdition/forks"><img src="https://img.shields.io/static/v1?style=flat&message=1&label=forks&color=green" alt="Recuento de bifurcaciones" /></a>
-
+    <a href="https://sourceforge.net/projects/minecraftjavascriptedition/files/latest/download"><img alt="Descargar MinecraftJavascriptEdition" src="https://img.shields.io/sourceforge/dm/minecraftjavascriptedition.svg" /></a>
+    <a href="https://sourceforge.net/projects/minecraftjavascriptedition/files/latest/download"><img alt="Descargar MinecraftJavascriptEdition" src="https://img.shields.io/sourceforge/dm/minecraftjavascriptedition.svg" /></a>
+    <a href="https://sourceforge.net/projects/minecraftjavascriptedition/files/latest/download"><img alt="Descargar MinecraftJavascriptEdition" src="https://img.shields.io/sourceforge/dw/minecraftjavascriptedition.svg" /></a>
+    <a href="https://sourceforge.net/projects/minecraftjavascriptedition/files/latest/download"><img alt="Descargar MinecraftJavascriptEdition" src="https://img.shields.io/sourceforge/dd/minecraftjavascriptedition.svg" /></a>
+    <a href="https://github.com/CiroDOS/MinecraftJavascriptEdition/forks"><img src="https://img.shields.io/static/v1?style=flat&message=1&label=forks&color=green" alt="Recuento de bifurcaciones" /></a>
 </div>
 
 ## **Acerca de ℹ️**
@@ -32,7 +35,7 @@ Otros enlaces:
 
 ## Como usar 📚
 
--   🌐 [Documentación completa (en Inglés)](https://github.com/CiroDOS/MinecraftJavascriptEdition/blob/master/documentation/full_documentation.md)
+-   🌐 [Documentación completa](https://github.com/CiroDOS/MinecraftJavascriptEdition/blob/master/documentation/es-ES/FullDocumentation.md)
 -   📖 [Como usar](#obtener-ayuda-🙋)
 
 ## Obtener ayuda 🙋

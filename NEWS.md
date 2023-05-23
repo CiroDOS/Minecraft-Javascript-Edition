@@ -1,17 +1,22 @@
 # News
 
-## CalcThread.js
-We rollback the function `Math.randoming` because it return the same value inputed in the `until` argument.
+## Compatibility with devices
+- (index.html) We enabled the compatibility with iOS and Safari browser.
+- (assets/minecraft/styles/*.css) UTF-8 Charset `@charset 'UTF-8';`
+- (index.html) Added MIME Types for diference files.
 
-## Optimizing news
-For now, we don't have any optimizing update.
+## More readable code
+- (index.html) Inline-styles removed
+- (assets/minecraft/styles/*.css) Added commentaries
+- (assets/minecraft/styles/*.css) Separated code
 
-## Posible changes
-It is possible that we change the game engine. Yes, the game engine. We should change it, Eaglercraft is some ILLEGAL. But, it is the best game engine.
+## Synchronize SourceForge with GitHub
+- Synchronized downloads
+- Added badges
 
-## New libraries
-- J2Even, the javascript interpreter
+## Translations
+- Translated ThreadManager.md to Spanish
+- Translated FullDocumentation.md to Spanish
 
-## Deleted files
-- UnixDate.js
-- servers.js (it is not deleted, only is marked on .gitignore)
+## Solved Errors
+- All screens are displayed at start, [Here the bug documentation](https://github.com/CiroDOS/MinecraftJavascriptEdition/blob/master/documentation/bugs/418.txt?raw=true)

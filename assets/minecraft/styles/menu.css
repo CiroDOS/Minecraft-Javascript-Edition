@@ -1,24 +1,37 @@
+@charset 'UTF-8';
+
 #main_menu {
-    background-size: cover;
-    background-repeat: no-repeat;
+  /* Background */
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 #main_menu .opt-button {
-    position: relative;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    gap: 5px;
+  /* Properties, such as angule, position, display, etc. */
+  position: relative;
+  display: flex;
+  justify-content: center;
+
+  /* Flex/Grid properties */
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 5px;
+
+  /* Size */
+  height: 100%;
 }
 
-#main_menu .opt-button button {
-    margin: 0 auto;
+#main_menu .opt-button input[type='button'] {
+  /* Properties, such as angule, position, display, etc. */
+  margin: 0 auto;
 }
 
 #minecraft-logo {
-    width: 40%;
-    position: relative;
-    margin: 0 auto;
-    top: -100px;
+  /* Size */
+  width: 40%;
+
+  /* Properties, such as angule, position, display, etc. */
+  margin: 0 auto;
+  position: relative;
+  top: -100px;
 }

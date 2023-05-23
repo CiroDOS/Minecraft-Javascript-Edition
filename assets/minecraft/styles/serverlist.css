@@ -1,35 +1,68 @@
+@charset 'UTF-8';
+
 #server-list {
+    /* Background */
     background-image: url('../textures/block/dirt.png');
     background-repeat: repeat;
     background-size: 64px;
 }
 
 #server-list .container {
+    /* Properties, such as angule, position, display, etc. */
     display: flex;
-    flex-direction: column;
-    gap: 2rem;
     margin: 0 auto;
     margin: 30px;
+
+    /* Flex/Grid properties */
+    -ms-flex-direction: column;
+    flex-direction: column;
+    gap: 20px;
 }
 
 #server-list .footer {
+    /* Properties, such as angule, position, display, etc. */
     position: fixed;
-    width: 100%;
     bottom: 0;
+
+    /* Size */
+    width: 100%;
     height: 100px;
+    
+    /* Others */
     filter: brightness(1.75);
 }
 
+#server-list .footer .container {
+    /* Properties, such as angule, position, display, etc. */
+    position: fixed;
+
+    /* Flex/Grid properties */
+    -ms-flex-direction: row;
+    flex-direction: row;
+    gap: 10px;
+}
+
 #server-list input[type='text'] {
+    /* Fonts */
     font-family: 'Mojangles', sans-serif;
+    font-size: 15pt;
+    
+    /* Borders */
     outline: none;
     overflow: hidden;
     border: 3px solid white;
+
+    /* Colors */
     background: #000;
-    width: 300px;
-    font-size: 15pt;
-    height: 45px;
-    padding: 15px;
     color: white;
+
+    /* Size */
+    width: 300px;
+    height: 45px;
+    
+    /* Properties, such as angule, position, display, etc. */
+    padding: 15px;
+    
+    /* Others */
     text-decoration: none;
 }

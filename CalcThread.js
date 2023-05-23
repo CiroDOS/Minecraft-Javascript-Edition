@@ -8,21 +8,21 @@
 Number.POINT = '.';
 
 Math.calcPercentage = function (percentage, num) {
-    return num * (percentage / 100);
+	return num * (percentage / 100);
 }
 
 Math.extractPercentage = function (mahornum, minornum) {
-    return (minornum * 100) / mahornum;
+	return (minornum * 100) / mahornum;
 }
 
 Math.roundBase = function (num, rounder) {
-    return Math.round(num / rounder) * rounder;
+	return Math.round(num / rounder) * rounder;
 }
 
 String.prototype.extractNumbers = () => this.match(/[0-9]/g).join('');
 
-Math.randoming = function(until = 10, add = 0) {
-    return Math.floor(Math.random() * until) + add;
+Math.randoming = function (until = 10, add = 0) {
+	return Math.floor(Math.random() * until) + add;
 }
 
 Math.multipleDivision = function (num, array, minimum) {

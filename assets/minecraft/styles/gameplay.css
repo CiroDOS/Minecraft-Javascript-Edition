@@ -1,4 +1,12 @@
+@charset 'UTF-8';
+
 #play-canvas {
-    width: 100%;
-    height: 100%;
+  /* Size */
+  width: 100%;
+  height: 100%;
+}
+
+.do-not-display {
+  /* Properties, such as angule, position, display, etc. */
+  display: none;
 }

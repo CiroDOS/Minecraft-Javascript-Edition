@@ -1,16 +1,28 @@
+@charset 'UTF-8';
+
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  /* Size */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  /* User interaction */
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 body {
-    font-family: 'Mojangles';
-    font-size: 1rem;
+  /* Fonts */
+  font-family: 'Mojangles';
+  font-size: 12pt;
 }
 
 .fullscreen {
-    position: fixed;
-    width: 100%;
-    height: 100%;
+  /* Properties, such as angule, position, display, etc. */
+  position: fixed;
+
+  /* Size */
+  width: 100%;
+  height: 100%;
 }

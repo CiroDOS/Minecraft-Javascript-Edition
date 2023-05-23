@@ -1,8 +1,8 @@
 # Minecraft Javascript Edition
 This edition of Minecraft was made in HTML, CSS and Javascript.
-This edition has, animated loading screens, a fully functional gameplay, maybe not the best copy, but it has a pretty polished interface inspired by Minecraft Bedrock, and that even though the gameplay is inspired by Minecraft Java Edition.
+This edition has, animated loading screens and a fully functional gameplay, maybe not the best copy, but it has a pretty polished interface inspired by Minecraft Bedrock, and that even though the gameplay is inspired by Minecraft Java Edition.
 
-The addition of modifications is somewhat complex, it is easier to program the modifications than to include them in the game, now we will explain in more depth the source code of the game and what it is for...
+The addition of modifications is somewhat complex, it is easier to program the modifications than to include them in the game, now we will explain in more depth the source code of the game and what it is for.
 
 Classes and their purposes:
 

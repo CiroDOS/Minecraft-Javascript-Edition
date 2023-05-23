@@ -1,23 +1,39 @@
-button {
+@charset 'UTF-8';
+
+.bedrock_button {
+    /* Borders */
     border: 2px outset;
+
+    /* Colors */
     background-color: #c6c6c6;
     color: black;
+
+    /* Size */
     padding: 5px 10px 5px 10px;
+
+    /* Fonts */
     font-family: 'Mojangles';
+    font-size: 14pt;
     font-weight: 400;
-    font-size: 1.1rem;
 }
 
-button:hover {
+.bedrock_button:hover {
+    /* Colors */
     background: #43a01c;
+
+    /* Borders */
     border-color: #43a01c;
 }
 
-button:active {
+.bedrock_button:active {
+    /* Borders */
     border: none;
 }
 
 #quit_Settings {
+    /* Properties, such as angule, position, display, etc. */
     float: right;
+
+    /* Others */
     cursor: pointer;
 }

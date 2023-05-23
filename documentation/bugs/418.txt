@@ -1,0 +1,13 @@
+                MinecraftJavascriptEdition
+                    Repaired Errors (418)
+
+The bug '418' is in the file (index.html) and it's caused
+  because the index HTML file does not implements the css
+  file '\assets\minecraft\styles\gameplay.css'.
+
+How'd solved? Easy, it are easy to solve, only you should
+  implement the CSS file '\assets\minecraft\styles\gameplay.css'
+  to the index HTML file, on the <head> tag.
+
+Code:
+    `<link rel="stylesheet" href="assets/minecraft/styles/gameplay.css">`

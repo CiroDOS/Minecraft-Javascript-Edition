@@ -1,36 +1,59 @@
+@charset 'UTF-8';
+
 #options {
-    background-color: #313234;
-    color: #ffffff;
+  /* Colors */
+  background-color: #313234;
+  color: #ffffff;
 }
 
 #options .container {
-    margin: 100px;
-    margin-left: 740px;
+  /* Properties, such as angule, position, display, etc. */
+  margin: 100px;
+  margin-left: 740px;
 }
 
 #options .left-bar {
-    background-color: #313234;
-    color: #ffffff;
-    float: left;
-    height: 100%;
-    width: 37%;
-    padding: 30px;
-    margin-top: 60px;
-    border: 5px inset #c6c6c6;
+  /* Colors */
+  background-color: #313234;
+  color: #ffffff;
+
+  /* Properties, such as angule, position, display, etc. */
+  float: left;
+  margin-top: 60px;
+  padding: 30px;
+
+  /* Size */
+  height: 100%;
+  width: 37%;
+
+  /* Borders */
+  border: 5px inset #c6c6c6;
 }
+
 #options .top-bar {
-    background: #c6c6c6;
-    color: #000000;
-    position: fixed;
-    width: 100%;
-    border: 3px outset;
+  /* Colors */
+  background: #c6c6c6;
+  color: #000000;
+
+  /* Size */
+  width: 100%;
+
+  /* Borders */
+  border: 3px outset;
+
+  /* Properties, such as angule, position, display, etc. */
+  position: fixed;
 }
 
 .property-label {
-    font-size: 1.4rem;
+  /* Fonts */
+  font-size: 1.4rem;
 }
 
 input[type='range'] {
-    width: 200px;
-    accent-color: green;
+  /* Size */
+  width: 200px;
+
+  /* Colors */
+  accent-color: green;
 }

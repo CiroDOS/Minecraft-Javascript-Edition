@@ -15,7 +15,7 @@
 const beta_gameplay = 'https://classic.minecraft.net'; // This gameplay doesn't work correctly, then is not passed the 'Gameplay Test'
 
 class Gameplay {
-    static info = {
-        'emulator-url': "https://minecraft-javascript-edition--systemdrive.repl.co/"
-    };
+	static info = {
+		'emulator-url': "https://minecraft-javascript-edition--systemdrive.repl.co/"
+	};
 }

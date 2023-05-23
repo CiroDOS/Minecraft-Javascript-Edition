@@ -1,61 +1,69 @@
+@charset 'UTF-8';
+
 @font-face {
-    font-family: 'Minecraft Five v2';
-    src: url('../fonts/Minecraft-Five-48bb3.otf');
+  font-family: 'Minecraft Five v2';
+  src: url('../fonts/Minecraft-Five-48bb3.otf') format("truetype");
 }
 
 @font-face {
-    font-family: 'Minecraft Five v2 Bold';
-    src: url('../fonts/Minecraft-Five-Bold-4ded8.otf');
+  font-family: 'Minecraft Five v2 Bold';
+  src: url('../fonts/Minecraft-Five-Bold-4ded8.otf') format("truetype");
 }
 
 @font-face {
-    font-family: 'Minecraft Seven v2';
-    src: url('../fonts/Minecraft-Seven-66398.otf');
+  font-family: 'Minecraft Seven v2';
+  src: url('../fonts/Minecraft-Seven-66398.otf') format("truetype");
 }
 
 @font-face {
-    font-family: 'Minecraft Ten v2';
-    src: url('../fonts/Minecraft-Ten-ed29a.otf');
+  font-family: 'Minecraft Ten v2';
+  src: url('../fonts/Minecraft-Ten-ed29a.otf') format("truetype");
 }
 
 @font-face {
-    font-family: 'FontAwesome';
-    src: url('../fonts/fontawesome-webfont.ttf');
+  font-family: 'FontAwesome';
+  src: url('../fonts/fontawesome-webfont.ttf') format("truetype");
 }
 
 @font-face {
-    font-family: 'Mojangles';
-    src: url('../fonts/Mojangles.ttf');
+  font-family: 'Mojangles';
+  src: url('../fonts/Mojangles.ttf') format("truetype");
 }
 
 @font-face {
-    font-family: 'NotoSans Bold';
-    src: url('../fonts/NotoSans-Bold-11db8.ttf');
+  font-family: 'NotoSans Bold';
+  src: url('../fonts/NotoSans-Bold-11db8.ttf') format("truetype");
 }
 
 @font-face {
-    font-family: 'NotoSans BoldItalic';
-    src: url('../fonts/NotoSans-Italic-11442.ttf');
+  font-family: 'NotoSans BoldItalic';
+  src: url('../fonts/NotoSans-Italic-11442.ttf') format("truetype");
 }
 
 #splash-text {
-    position: relative;
-    color: yellow;
-    font-family: 'Mojangles';
-    font-size: 1.6rem;
-    will-change: top, left;
-    left: 1000px;
-    top: -48px;
-    user-select: none;
-    z-index: 100;
+  /* Properties, such as angule, position, display, etc. */
+  position: relative;
+  left: 900px;
+  top: -48px;
+  z-index: 100;
+  will-change: top, left;
+
+  /* Colors */
+  color: yellow;
+
+  /* Fonts */
+  font-family: 'Mojangles';
+  font-size: 1.6rem;
 }
 
 #splash-text-container {
-    -webkit-transform: rotate(-15deg);
-    -moz-transform: rotate(-15deg);
-    transform: rotate(-15deg);
+  /* Properties, such as angule, position, display, etc. */
+  -webkit-transform: rotate(-15deg);
+  -moz-transform: rotate(-15deg);
+  transform: rotate(-15deg);
 }
 
 .dead-text {
-    font-family: 'Minecraft Ten v2';
+  /* Fonts */
+  font-family: 'Minecraft Ten v2';
 }

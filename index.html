@@ -2,94 +2,100 @@
 <html lang="es">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Minecraft Javascript Edition - Loading...</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Minecraft Javascript Edition - Loading...</title>
 
-    <link rel="stylesheet" href="assets/minecraft/styles/aesthetic.css">
-    <link rel="stylesheet" href="assets/minecraft/styles/serverlist.css">
-    <link rel="stylesheet" href="assets/minecraft/styles/buttons.css">
-    <link rel="stylesheet" href="assets/minecraft/styles/loadscreen.css">
-    <link rel="stylesheet" href="assets/minecraft/styles/menu.css">
-    <link rel="stylesheet" href="assets/minecraft/styles/options.css">
-    <link rel="stylesheet" href="assets/minecraft/styles/texts.css">
+	<link rel="stylesheet" href="assets/minecraft/styles/aesthetic.css" type="text/css">
+	<link rel="stylesheet" href="assets/minecraft/styles/serverlist.css" type="text/css">
+	<link rel="stylesheet" href="assets/minecraft/styles/buttons.css" type="text/css">
+	<link rel="stylesheet" href="assets/minecraft/styles/loadscreen.css" type="text/css">
+	<link rel="stylesheet" href="assets/minecraft/styles/menu.css" type="text/css">
+	<link rel="stylesheet" href="assets/minecraft/styles/options.css" type="text/css">
+	<link rel="stylesheet" href="assets/minecraft/styles/texts.css" type="text/css">
+	<link rel="stylesheet" href="assets/minecraft/styles/gameplay.css" type="text/css">
 
 </head>
 
 <body>
 
-    <div id="loadscreen" class="fullscreen">
+	<div id="loadscreen" class="fullscreen">
 
-        <video class="animation-video" autoplay>
+		<video class="animation-video" autoplay>
 
-            <!-- Load animations -->
-            <source type="video/mp4" src="assets/minecraft/animations/AnimationLogo.anm">
+			<!-- Load animations -->
+			<source type="video/mp4" src="assets/minecraft/animations/AnimationLogo.anm">
 
-        </video>
+		</video>
 
-    </div>
-
-
-    <div id="main_menu" class="fullscreen" style="display: none;">
-
-        <div class="opt-button">
-
-            <img src="assets/minecraft/textures/gui/MinecraftLogo.png" id="minecraft-logo" />
-
-            <div id="splash-text-container">
-                <span id="splash-text"></span>
-            </div>
-
-            <button id="btn_Singleplayer"
-                data='{"padding": {"bottom": {"quantity": 20, "measurement": "px"}, "top": {"quantity": 20, "measurement": "px"}, "left": {"quantity": 150, "measurement": "px"}, "right": {"quantity": 150, "measurement": "px"}}}'>Unjugador</button>
-            <button id="btn_Multiplayer"
-                data='{"padding": {"bottom": {"quantity": 20, "measurement": "px"}, "top": {"quantity": 20, "measurement": "px"}, "left": {"quantity": 150, "measurement": "px"}, "right": {"quantity": 150, "measurement": "px"}}}'>Multijugador</button>
-            <button id="btn_Settings"
-                data='{"padding": {"bottom": {"quantity": 20, "measurement": "px"}, "top": {"quantity": 20, "measurement": "px"}, "left": {"quantity": 150, "measurement": "px"}, "right": {"quantity": 150, "measurement": "px"}}}'>Ajustes</button>
-
-        </div>
-
-    </div>
+	</div>
 
 
-    <div id="options" class="fullscreen" style="display: none;">
+	<div id="main_menu" class="fullscreen do-not-display">
 
-        <div class="top-bar" id="settings-topbar" data='{"padding": {"quantity": 20, "measurement": "px"}}'>
-            <img src="assets/minecraft/textures/gui/quit.png" id="quit_Settings">
-            <h2>Ajustes</h2>
-        </div>
+		<div class="opt-button">
 
-        <div class="left-bar"></div> <!-- Work in progress -->
+			<img alt="LOGO" src="assets/minecraft/textures/gui/MinecraftLogo.png" id="minecraft-logo" />
 
-        <div class="container">
-            <span class="property-label">Tamaño de la interfaz: </span>
-            <input type="range" id="btn_range_padding" value="100">
-        </div>
+			<div id="splash-text-container">
+				<span id="splash-text"></span>
+			</div>
 
-    </div>
+			<input type="button" id="btn_Singleplayer" class="bedrock_button"
+				data='{"padding": {"bottom": {"quantity": 20, "measurement": "px"}, "top": {"quantity": 20, "measurement": "px"}, "left": {"quantity": 150, "measurement": "px"}, "right": {"quantity": 150, "measurement": "px"}}}' value="Singleplayer" />
+			<input type="button" id="btn_Multiplayer" class="bedrock_button"
+				data='{"padding": {"bottom": {"quantity": 20, "measurement": "px"}, "top": {"quantity": 20, "measurement": "px"}, "left": {"quantity": 150, "measurement": "px"}, "right": {"quantity": 150, "measurement": "px"}}}' value="Multiplayer" />
+			<input type="button" id="btn_Settings" class="bedrock_button"
+				data='{"padding": {"bottom": {"quantity": 20, "measurement": "px"}, "top": {"quantity": 20, "measurement": "px"}, "left": {"quantity": 150, "measurement": "px"}, "right": {"quantity": 150, "measurement": "px"}}}' value="Settings" />
 
-    <iframe id="play-canvas" frameborder="0" src="" class="fullscreen" style="display: none;"></iframe>
+		</div>
 
-    <div class="fullscreen" id="server-list" style="display: none;">
-        <div class="container">
-            <input type="text">
-        </div>
+	</div>
 
-        <div class="footer">
-            <hr>
-        </div>
-    </div>
+
+	<div id="options" class="fullscreen do-not-display">
+
+		<div class="top-bar" id="settings-topbar" data='{"padding": {"quantity": 20, "measurement": "px"}}'>
+			<img alt="QUIT BUTTON" src="assets/minecraft/textures/gui/quit.png" id="quit_Settings">
+			<h2>Settings</h2>
+		</div>
+
+		<div class="left-bar"></div> <!-- Work in progress -->
+
+		<div class="container">
+			<label for="btn_range_padding" class="property-label">Interface size: </label>
+			<input name="btn_range_padding" type="range" id="btn_range_padding" value="100">
+		</div>
+
+	</div>
+
+	<iframe id="play-canvas" frameborder="0" src="" class="fullscreen do-not-display"></iframe>
+
+	<div class="fullscreen do-not-display" id="server-list">
+		<div class="container">
+			<input type="text" name="server_ip" id="server_ip">
+		</div>
+
+		
+		<div class="footer">
+			<hr>
+			<div class="container">
+				<input type="button" id="quit-ServerList"
+					data='{"padding":{"quantity":10,"measurement":"px"}}' value="Cancel" class="bedrock_button" />
+			</div>
+		</div>
+	</div>
 
 
 </body>
 
-<!-- Code -->
-<script src="WebAspect.js"></script>
-<script src="CalcThread.js"></script>
-<script src="Gameplay.js"></script>
-<script src="Logger.js"></script>
+<!-- [ WARNING ] Only touch the code if you know what are you doing! -->
+<!-- Javascript Code -->
+<script src="WebAspect.js" type="text/javascript"></script>
+<script src="CalcThread.js" type="text/javascript"></script>
+<script src="Gameplay.js" type="text/javascript"></script>
+<script src="Logger.js" type="text/javascript"></script>
 
-<script src="ThreadManager.js"></script> <!-- IMPORTANT -->
+<script src="ThreadManager.js" type="text/javascript"></script> <!-- IMPORTANT -->
 
 </html>
