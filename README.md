@@ -4,13 +4,13 @@
 
 # Minecraft Javascript Edition
 
-[Documentation](https://github.com/CiroDOS/MinecraftJavascriptEdition/blob/master/documentation/en-US/FullDocumentation.md) | [Download](#download) | [Installation](#download) | [Usage](#how-to-use-📚)
+[Documentation](https://github.com/CiroDOS/MinecraftJavascriptEdition/blob/master/.github/documentation/en-US/FullDocumentation.md) | [Download](#download) | [Installation](#download) | [Usage](#how-to-use-📚)
 
 </div>
 
 <div align="center">
 
-[English](https://github.com/CiroDOS/MinecraftJavascriptEdition/blob/master/documentation/en-US/README.md) | [Spanish](https://github.com/CiroDOS/MinecraftJavascriptEdition/blob/master/documentation/es-ES/README.md)
+[English](https://github.com/CiroDOS/MinecraftJavascriptEdition/blob/master/.github/documentation/en-US/README.md) | [Spanish](https://github.com/CiroDOS/MinecraftJavascriptEdition/blob/master/.github/documentation/es-ES/README.md)
 
 </div>
 
@@ -35,13 +35,13 @@ Other mirrors:
 
 ## How to use 📚
 
--   🌐 [Full Documentation](https://github.com/CiroDOS/MinecraftJavascriptEdition/blob/master/documentation/en-US/FullDocumentation.md)
+-   🌐 [Full Documentation](https://github.com/CiroDOS/MinecraftJavascriptEdition/blob/master/.github/documentation/en-US/FullDocumentation.md)
 -   📖 [Usage](#getting-help-🙋)
 
 ## Getting Help 🙋
 
 Usages Files:
-- [ThreadManager.js](https://github.com/CiroDOS/MinecraftJavascriptEdition/blob/master/documentation/ThreadManager.md)
+- [ThreadManager.js](https://github.com/CiroDOS/MinecraftJavascriptEdition/blob/master/.github/documentation/ThreadManager.md)
 
 ## Helping Us ❤️
 

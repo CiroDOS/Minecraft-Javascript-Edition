@@ -19,4 +19,4 @@
 - Translated FullDocumentation.md to Spanish
 
 ## Solved Errors
-- All screens are displayed at start, [Here the bug documentation](https://github.com/CiroDOS/MinecraftJavascriptEdition/blob/master/documentation/bugs/418.txt?raw=true)
+- All screens are displayed at start, [Here the bug documentation](https://github.com/CiroDOS/MinecraftJavascriptEdition/blob/master/.github/documentation/bugs/418.txt?raw=true)

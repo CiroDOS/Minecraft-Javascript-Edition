@@ -4,13 +4,13 @@
 
 # Minecraft Javascript Edition
 
-[Documentación](https://github.com/CiroDOS/MinecraftJavascriptEdition/blob/master/documentation/es-ES/FullDocumentation.md) | [Descargas](#descargar) | [Instalación](#descargar) | [Como Usar](#como-usar-📚)
+[Documentación](https://github.com/CiroDOS/MinecraftJavascriptEdition/blob/master/.github/documentation/es-ES/FullDocumentation.md) | [Descargas](#descargar) | [Instalación](#descargar) | [Como Usar](#como-usar-📚)
 
 </div>
 
 <div align="center">
 
-[Inglés](https://github.com/CiroDOS/MinecraftJavascriptEdition/blob/master/documentation/en-US/README.md) | [Español](https://github.com/CiroDOS/MinecraftJavascriptEdition/blob/master/documentation/es-ES/README.md)
+[Inglés](https://github.com/CiroDOS/MinecraftJavascriptEdition/blob/master/.github/documentation/en-US/README.md) | [Español](https://github.com/CiroDOS/MinecraftJavascriptEdition/blob/master/.github/documentation/es-ES/README.md)
 
 </div>
 
@@ -35,13 +35,13 @@ Otros enlaces:
 
 ## Como usar 📚
 
--   🌐 [Documentación completa](https://github.com/CiroDOS/MinecraftJavascriptEdition/blob/master/documentation/es-ES/FullDocumentation.md)
+-   🌐 [Documentación completa](https://github.com/CiroDOS/MinecraftJavascriptEdition/blob/master/.github/documentation/es-ES/FullDocumentation.md)
 -   📖 [Como usar](#obtener-ayuda-🙋)
 
 ## Obtener ayuda 🙋
 
 Archivos de uso (en Inglés):
-- [ThreadManager.js](https://github.com/CiroDOS/MinecraftJavascriptEdition/blob/master/documentation/ThreadManager.md)
+- [ThreadManager.js](https://github.com/CiroDOS/MinecraftJavascriptEdition/blob/master/.github/documentation/ThreadManager.md)
 
 ## Ayudanos ❤️
 
