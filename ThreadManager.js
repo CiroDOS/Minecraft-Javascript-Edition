@@ -31,15 +31,6 @@ const windows = {
 		htmlobj: null
 	},
 
-	"minecraft:window/canvas": {
-		id: '03',
-		name: "minecraft:window/canvas",
-		title: {
-			on_multiplayer: title + " - 3rd party server",
-			on_singleplayer: title + " - $world_name"
-		},
-		htmlobj: null
-	},
 	"minecraft:window/server_list": {
 		id: '04',
 		name: "minecraft:window/server_lists",
@@ -51,13 +42,11 @@ const windows = {
 		"minecraft:window/loadscreen",
 		"minecraft:window/main_menu",
 		"minecraft:window/settings",
-		"minecraft:window/canvas",
 		"minecraft:window/server_list"
 	]
 }
 
 window.onload = function () {
-	windows['minecraft:window/canvas'].htmlobj = document.getElementById("play-canvas");
 	windows['minecraft:window/loadscreen'].htmlobj = document.getElementById("loadscreen");
 	windows['minecraft:window/main_menu'].htmlobj = document.getElementById("main_menu");
 	windows['minecraft:window/settings'].htmlobj = document.getElementById("options");
@@ -149,10 +138,7 @@ function addEventListeners(menu_buttons) {
 }
 
 function openPlayCanvas(data) {
-	(windows['minecraft:window/canvas'].htmlobj).setAttribute("src", Gameplay.info['emulator-url']);
-
-	SwitchToWindows(windows['minecraft:window/canvas']);
-	changeTitle(windows['minecraft:window/canvas'].title.on_singleplayer.replaceAll("$world_name", data.world.name));
+	window.location.href = Gameplay.info['emulator-url'];
 }
 
 function SwitchToWindows(windowsToSwitch) {
@@ -171,12 +157,6 @@ function SwitchToWindows(windowsToSwitch) {
 			break;
 
 		case windows['minecraft:window/settings']: // ID: 02
-
-			disableAllWindowsExcept(windowsToSwitch);
-			enableWindow(windowsToSwitch);
-			break;
-
-		case windows['minecraft:window/canvas']: // ID: 03
 
 			disableAllWindowsExcept(windowsToSwitch);
 			enableWindow(windowsToSwitch);
