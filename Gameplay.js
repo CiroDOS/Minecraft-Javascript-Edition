@@ -12,10 +12,10 @@
  * the variable beta_gameplay
  */
 
-const beta_gameplay = 'https://classic.minecraft.net'; // This gameplay doesn't work correctly, then is not passed the 'Gameplay Test'
+const beta_gameplay = 'https://minecraft-javascript-edition--systemdrive.repl.co/'; // This gameplay this gameplay passed the 'Gameplay Test'. But EaglerCraft is best.
 
 class Gameplay {
 	static info = {
-		'emulator-url': "https://minecraft-javascript-edition--systemdrive.repl.co/"
+		'emulator-url': "https://eaglercraft.ru/mc/1.5.2/vanilla/"
 	};
 }
