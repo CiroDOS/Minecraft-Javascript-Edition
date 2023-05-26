@@ -15,7 +15,7 @@
 </div>
 
 <div align="center">
-    <a href="https://sourceforge.net/projects/minecraftjavascriptedition/files/latest/download"><img alt="Descargar MinecraftJavascriptEdition" src="https://img.shields.io/sourceforge/dm/minecraftjavascriptedition.svg" /></a>
+    <a href="https://sourceforge.net/projects/minecraftjavascriptedition/files/latest/download"><img alt="Descargar Minecraft Javascript Edition" src="https://img.shields.io/sourceforge/dt/minecraftjavascriptedition.svg" /></a>
     <a href="https://sourceforge.net/projects/minecraftjavascriptedition/files/latest/download"><img alt="Descargar MinecraftJavascriptEdition" src="https://img.shields.io/sourceforge/dm/minecraftjavascriptedition.svg" /></a>
     <a href="https://sourceforge.net/projects/minecraftjavascriptedition/files/latest/download"><img alt="Descargar MinecraftJavascriptEdition" src="https://img.shields.io/sourceforge/dw/minecraftjavascriptedition.svg" /></a>
     <a href="https://sourceforge.net/projects/minecraftjavascriptedition/files/latest/download"><img alt="Descargar MinecraftJavascriptEdition" src="https://img.shields.io/sourceforge/dd/minecraftjavascriptedition.svg" /></a>
