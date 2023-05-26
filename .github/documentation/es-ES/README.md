@@ -4,13 +4,13 @@
 
 # Minecraft Javascript Edition
 
-[Documentación](https://github.com/CiroDOS/MinecraftJavascriptEdition/blob/master/.github/documentation/es-ES/FullDocumentation.md) | [Descargas](#descargar) | [Instalación](#descargar) | [Como Usar](#como-usar-📚)
+[Documentación](https://github.com/CiroDOS/Minecraft-Javascript-Edition/blob/master/.github/documentation/es-ES/FullDocumentation.md) | [Descargas](#descargar) | [Instalación](#descargar) | [Como Usar](#como-usar-📚)
 
 </div>
 
 <div align="center">
 
-[Inglés](https://github.com/CiroDOS/MinecraftJavascriptEdition/blob/master/.github/documentation/en-US/README.md) | [Español](https://github.com/CiroDOS/MinecraftJavascriptEdition/blob/master/.github/documentation/es-ES/README.md)
+[Inglés](https://github.com/CiroDOS/Minecraft-Javascript-Edition/blob/master/.github/documentation/en-US/README.md) | [Español](https://github.com/CiroDOS/Minecraft-Javascript-Edition/blob/master/.github/documentation/es-ES/README.md)
 
 </div>
 
@@ -19,7 +19,7 @@
     <a href="https://sourceforge.net/projects/minecraftjavascriptedition/files/latest/download"><img alt="Descargar MinecraftJavascriptEdition" src="https://img.shields.io/sourceforge/dm/minecraftjavascriptedition.svg" /></a>
     <a href="https://sourceforge.net/projects/minecraftjavascriptedition/files/latest/download"><img alt="Descargar MinecraftJavascriptEdition" src="https://img.shields.io/sourceforge/dw/minecraftjavascriptedition.svg" /></a>
     <a href="https://sourceforge.net/projects/minecraftjavascriptedition/files/latest/download"><img alt="Descargar MinecraftJavascriptEdition" src="https://img.shields.io/sourceforge/dd/minecraftjavascriptedition.svg" /></a>
-    <a href="https://github.com/CiroDOS/MinecraftJavascriptEdition/forks"><img src="https://img.shields.io/static/v1?style=flat&message=1&label=forks&color=green" alt="Recuento de bifurcaciones" /></a>
+    <a href="https://github.com/CiroDOS/Minecraft-Javascript-Edition/forks"><img src="https://img.shields.io/static/v1?style=flat&message=1&label=forks&color=green" alt="Recuento de bifurcaciones" /></a>
 </div>
 
 ## **Acerca de ℹ️**
@@ -28,24 +28,24 @@
 
 ## Descargar
 
-Obtener la última version en [La sección de lanzamientos](https://github.com/CiroDOS/MinecraftJavascriptEdition/releases/latest)
+Obtener la última version en [La sección de lanzamientos](https://github.com/CiroDOS/Minecraft-Javascript-Edition/releases/latest)
 
 Otros enlaces:
 [![Descargar MinecraftJavascriptEdition](https://a.fsdn.com/con/app/sf-download-button)](https://sourceforge.net/projects/minecraftjavascriptedition/files/latest/download)
 
 ## Como usar 📚
 
--   🌐 [Documentación completa](https://github.com/CiroDOS/MinecraftJavascriptEdition/blob/master/.github/documentation/es-ES/FullDocumentation.md)
+-   🌐 [Documentación completa](https://github.com/CiroDOS/Minecraft-Javascript-Edition/blob/master/.github/documentation/es-ES/FullDocumentation.md)
 -   📖 [Como usar](#obtener-ayuda-🙋)
 
 ## Obtener ayuda 🙋
 
 Archivos de uso (en Inglés):
-- [ThreadManager.js](https://github.com/CiroDOS/MinecraftJavascriptEdition/blob/master/.github/documentation/ThreadManager.md)
+- [ThreadManager.js](https://github.com/CiroDOS/Minecraft-Javascript-Edition/blob/master/.github/documentation/ThreadManager.md)
 
 ## Ayudanos ❤️
 
-Nosotros somos una pequeña comunidad entonces necesitamos ayuda para implementar actualizaciones para nuevas versiones de Minecraft, arreglando errores y expandiendo el proyecto. Nosotros siempre miramos por gente motivada a contribuir. Si sientes que puedes ayudarnos contribuyendo, por favor, hecha un vistazo a la [seccion de errores](https://github.com/CiroDOS/MinecraftJavascriptEdition/issues)
+Nosotros somos una pequeña comunidad entonces necesitamos ayuda para implementar actualizaciones para nuevas versiones de Minecraft, arreglando errores y expandiendo el proyecto. Nosotros siempre miramos por gente motivada a contribuir. Si sientes que puedes ayudarnos contribuyendo, por favor, hecha un vistazo a la [seccion de errores](https://github.com/CiroDOS/Minecraft-Javascript-Edition/issues)
 
 ## Como contribuir 📝
 

@@ -1,6 +1,6 @@
 /*
  * This file is part of the project MinecraftJavascriptEdition
- * Project Link: <https://github.com/CiroDOS/MinecraftJavascriptEdition>
+ * Project Link: <https://github.com/CiroDOS/Minecraft-Javascript-Edition>
  * If you distribute this file, please, don't quit this copyright notes.
  * ¡Thank you for watching my code!
  */

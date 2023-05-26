@@ -4,13 +4,13 @@
 
 # Minecraft Javascript Edition
 
-[Documentation](https://github.com/CiroDOS/MinecraftJavascriptEdition/blob/master/.github/documentation/en-US/FullDocumentation.md) | [Download](#download) | [Installation](#download) | [Usage](#how-to-use-📚)
+[Documentation](https://github.com/CiroDOS/Minecraft-Javascript-Edition/blob/master/.github/documentation/en-US/FullDocumentation.md) | [Download](#download) | [Installation](#download) | [Usage](#how-to-use-📚)
 
 </div>
 
 <div align="center">
 
-[English](https://github.com/CiroDOS/MinecraftJavascriptEdition/blob/master/.github/documentation/en-US/README.md) | [Spanish](https://github.com/CiroDOS/MinecraftJavascriptEdition/blob/master/.github/documentation/es-ES/README.md)
+[English](https://github.com/CiroDOS/Minecraft-Javascript-Edition/blob/master/.github/documentation/en-US/README.md) | [Spanish](https://github.com/CiroDOS/Minecraft-Javascript-Edition/blob/master/.github/documentation/es-ES/README.md)
 
 </div>
 
@@ -19,7 +19,7 @@
     <a href="https://sourceforge.net/projects/minecraftjavascriptedition/files/latest/download"><img alt="Download Minecraft Javascript Edition" src="https://img.shields.io/sourceforge/dm/minecraftjavascriptedition.svg" /></a>
     <a href="https://sourceforge.net/projects/minecraftjavascriptedition/files/latest/download"><img alt="Download Minecraft Javascript Edition" src="https://img.shields.io/sourceforge/dw/minecraftjavascriptedition.svg" /></a>
     <a href="https://sourceforge.net/projects/minecraftjavascriptedition/files/latest/download"><img alt="Download Minecraft Javascript Edition" src="https://img.shields.io/sourceforge/dd/minecraftjavascriptedition.svg" /></a>
-    <a href="https://github.com/CiroDOS/MinecraftJavascriptEdition/forks"><img src="https://img.shields.io/static/v1?style=flat&message=1&label=forks&color=green" alt="Forks count" /></a>
+    <a href="https://github.com/CiroDOS/Minecraft-Javascript-Edition/forks"><img src="https://img.shields.io/static/v1?style=flat&message=1&label=forks&color=green" alt="Forks count" /></a>
 </div>
 
 ## **About ℹ️**
@@ -28,24 +28,24 @@
 
 ## Download
 
-Get Latest release from [Releases section](https://github.com/CiroDOS/MinecraftJavascriptEdition/releases/latest)
+Get Latest release from [Releases section](https://github.com/CiroDOS/Minecraft-Javascript-Edition/releases/latest)
 
 Other mirrors:
 [![Download MinecraftJavascriptEdition](https://a.fsdn.com/con/app/sf-download-button)](https://sourceforge.net/projects/minecraftjavascriptedition/files/latest/download)
 
 ## How to use 📚
 
--   🌐 [Full Documentation](https://github.com/CiroDOS/MinecraftJavascriptEdition/blob/master/.github/documentation/en-US/FullDocumentation.md)
+-   🌐 [Full Documentation](https://github.com/CiroDOS/Minecraft-Javascript-Edition/blob/master/.github/documentation/en-US/FullDocumentation.md)
 -   📖 [Usage](#getting-help-🙋)
 
 ## Getting Help 🙋
 
 Usages Files:
-- [ThreadManager.js](https://github.com/CiroDOS/MinecraftJavascriptEdition/blob/master/.github/documentation/ThreadManager.md)
+- [ThreadManager.js](https://github.com/CiroDOS/Minecraft-Javascript-Edition/blob/master/.github/documentation/ThreadManager.md)
 
 ## Helping Us ❤️
 
-We are a small community so we need help to implement upgrades for new Minecraft versions, fixing bugs and expanding the project. We are always looking for motivated people to contribute. If you feel like it could be you, please have a look at the [issues](https://github.com/CiroDOS/MinecraftJavascriptEdition/issues) section :)
+We are a small community so we need help to implement upgrades for new Minecraft versions, fixing bugs and expanding the project. We are always looking for motivated people to contribute. If you feel like it could be you, please have a look at the [issues](https://github.com/CiroDOS/Minecraft-Javascript-Edition/issues) section :)
 
 ## How to contribute 📝
 
