@@ -7,8 +7,6 @@
 
 class Logger { // Apache technologies by like
 	static log(message, timestamp, type, thread) {
-		console.log(`[ ${timestamp.getHours()}:${timestamp.getMinutes().toString().padStart(2, "0")} ] [${thread}/${type}] ${message}`);
+		console.log(`[${timestamp.getHours().toString().padStart(2, "0")}:${timestamp.getMinutes().toString().padStart(2, "0")}] [${thread}/${type}]: ${message}`);
 	}
 }
-
-
