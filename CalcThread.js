@@ -24,8 +24,3 @@ String.prototype.extractNumbers = () => this.match(/[0-9]/g).join('');
 Math.randoming = function (until = 10, add = 0) {
 	return Math.floor(Math.random() * until) + add;
 }
-
-Math.multipleDivision = function (num, array, minimum) {
-	for (var i = 0; !num < minimum; i++) num -= array[i];
-	return i + (num / Math.pow(10, num.toString().length));
-}
